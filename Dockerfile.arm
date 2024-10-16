@@ -1,0 +1,9 @@
+FROM golang:1.22.7
+
+RUN curl -L https://github.com/golang-migrate/migrate/releases/download/v4.18.1/migrate.linux-arm64.tar.gz | tar xvz && \
+    mv ./migrate /usr/bin/migrate && \
+    chmod 770 /usr/bin/migrate
+
+WORKDIR /app
+
+EXPOSE 8081

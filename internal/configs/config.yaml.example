@@ -1,0 +1,6 @@
+service:
+  port: ":YOUR_PORT"
+  secretJWT: "YOUR_CUSTOM_JWT_KEY"
+
+database:
+  dataSourceName: "YOUR_DATABASE_HOST_SITE"

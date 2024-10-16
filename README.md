@@ -1,2 +1,2 @@
 # xg-forum
-Forum site that built with go lang
+xg-forum forum that was build for testing or learn golang language.
